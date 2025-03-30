@@ -74,12 +74,17 @@
             margin-right: 10px;
             transition: transform 0.3s ease;
         }
+
+        /* Add animation-fill-mode for persistence */
+        .profile-card, .profile-img, .social-link, h1, p {
+            animation-fill-mode: forwards;
+        }
     </style>
 </head>
 <body>
     <div class="profile-card">
         <div style="text-align: center; margin-bottom: 20px;">
-            <img src="https://i.ibb.co/678CB7Jr/Untitled-2.png" alt="Profile Image" class="profile-img">
+            <img src="./images/Untitled-2.png" alt="Profile Image" class="profile-img">
             <h1 style="margin: 10px 0 5px; font-size: 1.8em; opacity: 0; animation: textFadeIn 1s ease-out 0.8s forwards;">COpyRight</h1>
             <p style="margin: 0; font-size: 1em; color: #555; opacity: 0; animation: textFadeIn 1s ease-out 1s forwards;">Graphic Designer</p>
         </div>
@@ -88,24 +93,24 @@
             <h2 style="font-size: 1.2em; margin-bottom: 15px; text-align: center; opacity: 0; animation: textFadeIn 1s ease-out 1.2s forwards;">MY SOCIAL MEDIA</h2>
             
             <a href="https://www.facebook.com/share/19Hm2jidtD/?mibextid=wwXIfr" class="social-link" style="animation: socialItemFadeIn 0.5s ease-out 1.4s forwards;">
-                <img src="https://i.ibb.co/KpjkwFg7/d.png" alt="Facebook">
+                <img src="./images/d.png" alt="Facebook">
                 <span style="flex-grow: 1;">Dānit</span>
             </a>
             
             <a href="https://t.me/+855965460963" class="social-link" style="animation: socialItemFadeIn 0.5s ease-out 1.6s forwards;">
-                <img src="https://i.ibb.co/hJX8QWMS/Logo3.png" alt="Telegram">
+                <img src="./images/Logo3.png" alt="Telegram">
                 <span style="flex-grow: 1;">Voeun Danit</span>
                 <span style="font-size: 0.8em; color: #555;">Admin</span>
             </a>
             
             <a href="https://www.pinterest.com/your-pinterest-page" class="social-link" style="animation: socialItemFadeIn 0.5s ease-out 1.8s forwards;">
-                <img src="https://i.ibb.co/20KYY99M/Logo.png" alt="Pinterest">
+                <img src="./images/Logo.png" alt="Pinterest">
                 <span style="flex-grow: 1;">COpyRight</span>
                 <span style="font-size: 0.8em; color: #555;">Group</span>
             </a>
             
             <a href="https://github.com/your-github-profile" class="social-link" style="animation: socialItemFadeIn 0.5s ease-out 2s forwards;">
-                <img src="https://i.ibb.co/8gtrBB7D/Logo1.png" alt="GitHub">
+                <img src="./images/Logo1.png" alt="GitHub">
                 <span style="flex-grow: 1;">COpyRight Official</span>
                 <span style="font-size: 0.8em; color: #555;">Channel</span>
             </a>
